@@ -37,7 +37,7 @@
   opacity: 0.05;
 }
 
-.card {
+.card__list-item {
   display: flex;
   flex-direction: column;
   list-style: none;
