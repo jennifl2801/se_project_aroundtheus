@@ -16,11 +16,11 @@
   height: 24px;
   width: 24px;
   grid-area: button;
-  border: white 2px;
+  border: 1px solid #ffffff;
   cursor: pointer;
 }
 
-.profile__edit-buton:hover {
+.profile__edit-button:hover {
   opacity: 0.6;
 }
 
@@ -29,11 +29,12 @@
   width: 150px;
   height: 50px;
   margin-left: auto;
-  border: white 2px;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
   cursor: pointer;
 }
 
-.profile__add-buton:hover {
+.profile__add-button:hover {
   opacity: 0.6;
 }
 

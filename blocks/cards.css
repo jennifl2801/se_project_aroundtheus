@@ -1,9 +1,9 @@
-.card__list {
+.cards__list {
   display: grid;
   justify-content: center;
   border-radius: 10px;
   grid-template-columns: repeat(auto-fit, 282px);
-  grid-gap: 20px 17px;
+  gap: 20px 17px;
   padding: 0;
   margin: 0;
 }
@@ -34,13 +34,12 @@
 }
 
 .card__like-button:hover {
-  opacity: 0.05;
+  opacity: 0.5;
 }
 
-.card {
+.cards {
   display: flex;
   flex-direction: column;
-  list-style: none;
 }
 
 .card__title {
@@ -52,4 +51,8 @@
   white-space: nowrap;
   overflow: hidden;
   margin: 0;
+}
+
+.card {
+  list-style: none;
 }
