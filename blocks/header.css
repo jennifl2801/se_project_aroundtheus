@@ -4,18 +4,15 @@
   position: relative;
   margin: auto;
   box-sizing: border-box;
+  width: 100%;
+  padding-top: 45px;
+  padding-bottom: 41px;
 }
 
 .header__logo {
   height: 33px;
   width: 173px;
   margin-left: 0px;
-}
-
-.header {
-  width: 100%;
-  padding-top: 45px;
-  padding-bottom: 41px;
 }
 
 @media screen and (max-width: 320px) {
