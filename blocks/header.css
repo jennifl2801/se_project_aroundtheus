@@ -1,11 +1,21 @@
 .header {
-  padding-bottom: 41px;
   border-bottom: 1px solid rgba(84, 84, 84, 0.7);
   max-width: 880px;
-  width: 100%;
   position: relative;
   margin: auto;
   box-sizing: border-box;
+}
+
+.header__logo {
+  height: 33px;
+  width: 173px;
+  margin-left: 0px;
+}
+
+.header {
+  width: 100%;
+  padding-top: 45px;
+  padding-bottom: 41px;
 }
 
 @media screen and (max-width: 320px) {
@@ -22,11 +32,12 @@
   }
 }
 
+/* 
 @media screen and (max-width: 1280px) {
   .header__logo {
-    height: 24px;
-    width: 126px;
-    margin-left: 27px;
+    height: 33px;
+    width: 173px;
+    margin-left: 0px;
   }
 
   .header {
@@ -34,4 +45,4 @@
     padding-top: 45px;
     padding-bottom: 41px;
   }
-}
+} */
