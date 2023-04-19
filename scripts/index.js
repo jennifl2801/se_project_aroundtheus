@@ -42,29 +42,21 @@ const cardTemplate =
 
 /* FUNCTIONS */
 function closePopup() {
-  profileEditModal.classList.remove("modal__opened");
+  profileEditModal.classList.remove("modal_opened");
 }
 
 function getCardElement(cardData) {
   // clone the template element with all its content and store it in a cardElement variable
   const cardElement = cardTemplate.cloneNode(true);
-
   const cardImageEl = cardElement.querySelector(".card__image");
-
   // access the card title and image and store them in variables
   const cardTitleEl = cardElement.querySelector(".card__title");
-
   // set the path to the image to the link field of the object
   cardImageEl.src = cardData.link;
-
   // set the card title to the name field of the object, too
   cardTitleEl.textContent = cardData.name.trim();
-
   // set the image alt text to the name field of the object
   cardImageEl.alt = cardData.name;
-
-  cardTitleEl.textContent = cardData.name;
-
   // return the ready HTML element with the filled-in data
   return cardElement;
 }
@@ -81,7 +73,7 @@ function handleProfileEditSubmit(e) {
 profileEditButton.addEventListener("click", () => {
   profileTitleInput.value = profileTitle.textContent;
   profileDescriptionInput.value = profileDescription.textContent;
-  profileEditModal.classList.add("modal__opened");
+  profileEditModal.classList.add("modal_opened");
 });
 
 profileModalClose.addEventListener("click", closePopup);
