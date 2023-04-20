@@ -50,7 +50,7 @@
   top: -45px;
   right: -45px;
   cursor: pointer;
-  transition: 1s;
+  transition: 0.3s;
 }
 
 .modal__close:hover {
@@ -74,6 +74,7 @@
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+  box-sizing: border-box;
 }
 
 .modal__input:last-of-type {
@@ -81,7 +82,7 @@
 }
 
 .modal__form-button {
-  width: 356px;
+  width: 100%;
   height: 50px;
   vertical-align: middle;
   color: #ffffff;
@@ -94,6 +95,10 @@
   border-radius: 2px;
   border: 0;
   cursor: pointer;
+}
+
+.modal__form-button:hover {
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 320px) {

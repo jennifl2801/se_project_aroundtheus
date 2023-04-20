@@ -20,7 +20,7 @@
   grid-area: button;
   border: 1px solid #ffffff;
   cursor: pointer;
-  transition: 1s;
+  transition: 0.3s;
 }
 
 .profile__edit-button:hover {
@@ -35,7 +35,7 @@
   border: 2px solid #ffffff;
   border-radius: 2px;
   cursor: pointer;
-  transition: 1s;
+  transition: 0.3s;
 }
 
 .profile__add-button:hover {

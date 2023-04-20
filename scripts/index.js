@@ -70,6 +70,8 @@ function handleProfileEditSubmit(e) {
 }
 
 /* EVENT LISTNERS */
+/*update below code based off feedback from first review of final project*/
+
 profileEditButton.addEventListener("click", () => {
   profileTitleInput.value = profileTitle.textContent;
   profileDescriptionInput.value = profileDescription.textContent;
@@ -84,5 +86,3 @@ initialCards.forEach((cardData) => {
   const cardElement = getCardElement(cardData);
   cardListEl.prepend(cardElement);
 });
-
-//just a test delete me later
