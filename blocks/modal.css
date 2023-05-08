@@ -14,7 +14,7 @@
   padding-right: 19px;
 }
 
-.modal_opened {
+.modal_is-opened {
   display: flex;
 }
 
