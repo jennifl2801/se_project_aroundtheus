@@ -3,6 +3,7 @@
   flex-direction: column;
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
 }
 
 .card__title {
@@ -33,13 +34,20 @@
   opacity: 0.5;
 }
 
-.card__trash-button {
+.card__delete-button {
   background: url(../images/delete-icon.svg);
+  background-color: transparent;
   width: 18px;
-  height: 19px;
-  /* height: 19px;
-  width: 18px; */
-  display: flex;
+  height: 18px;
+  border: 0;
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  cursor: pointer;
+}
+
+.card__delete-button:hover {
+  opacity: 0.6;
 }
 
 .card__image {
