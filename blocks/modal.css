@@ -100,6 +100,31 @@
   opacity: 0.5;
 }
 
+.modal__container-image {
+  display: flex;
+  margin: auto;
+  position: relative;
+}
+
+.modal__image {
+  max-height: 75vh;
+  max-width: 75vh;
+  object-fit: cover;
+  display: flex;
+}
+
+.modal__preview-title {
+  font-size: 12px;
+  line-height: 15px;
+  padding-top: 10px;
+  margin: 0;
+  position: absolute;
+}
+
+/* .modal__image_is-opened {
+  display: flex;
+} */
+
 @media screen and (max-width: 320px) {
   .modal__container {
     width: 100%;
