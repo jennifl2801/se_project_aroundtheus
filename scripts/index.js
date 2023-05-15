@@ -44,7 +44,8 @@ const profileEditButton = document.querySelector("#profile-edit-button");
 const profileModalCloseButton = editProfileModal.querySelector(
   "#profile-modal-close"
 );
-const addModalCloseButton = addCardModal.querySelector("#profile-modal-close");
+
+const addModalCloseButton = addCardModal.querySelector("#add-modal-close");
 const profileTitle = document.querySelector(".profile__title");
 const profileDescription = document.querySelector(".profile__description");
 const addNewCardButton = document.querySelector(".profile__add-button");
